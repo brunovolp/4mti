@@ -64,6 +64,116 @@ Navegador Web
 - Chrome (versão 67 ou superior)
 - Safari (verão 11.1 ou superior)
 
+## Requisitos Funcionais
+
+    [RAD01]: Entrada e dados por conta do usuário. 
+    A solução deverá permitir a entrada de dados por parte dos usuários para completar os cadastros existentes. Os dados deverão ser devidamente catalogados e salvos no banco de dados, sendo mantida sua rastreabilidade.
+
+    [RAD03]: Seleção prévia dos registros. 
+    Permitir a seleção prévia dos registros a serem encaminhados para a visualização da análise de vínculos.
+
+    [RG06]: Canal de comunicação. 
+    O sistema deve disponibilizar um canal de comunicação com os usuários cadastrados, permitindo o encaminhado de mensagens (via e-mail, por exemplo), segmentadas por instituição, por perfil, dentre outros.
+
+    [RG09]: Criação de um módulo administrativo. 
+
+    [RS01]: Acesso limitado a usuários. 
+    O acesso ao sistema deverá ser limitado a usuários previamente cadastrados que estejam autenticados por meio de login e senha, permitindo ao usuário alterar alguns de seus dados cadastrais quando necessário.
+
+    [RS02]: Criação de perfis de acesso deve ser feita de forma parametrizável. 
+    O sistema deverá prover segurança e controle de acesso de usuários por meio de perfis para cada uma das funcionalidades da solução. A criação de perfis de acesso deve ser feita de forma parametrizável, com permissões podendo ser determinadas, para cada instituição usuária, em nível horizontal (acessar ou não determinadas entidades) ou vertical (acessar ou não determinados registros/tipos de registros).
+
+    [RS03]: Autenticação e autorização do usuário através do mecanismo institucional. 
+    O sistema deverá permitir a autenticação e autorização do usuário através do mecanismo institucional utilizado pelo MPMG e/ou daqueles utilizados pelas instituições parceiras do MPMG, incluindo a possibilidade de utilização de autenticação federada. Atividade de segurança: evolução do mecanismo de autenticação e autorização do Aduna/Lins/Sistemas GSI para uso do WSO2 IS (autenticação federada) e do módulo de autenticação de 2 fatores desenvolvido pelo grupo A04/UFMG 2020.
+
+    [RS04]: Definição das permissões. 
+    O sistema deverá permitir a definição das permissões de visibilidade de informações com base em requisitos definidos, possibilitando ainda a parametrização e a criação de exceções para acesso a informações colaterais.
+
+### Áduna
+
+    [RAD07]: Visualização de informações não estruturadas. 
+    Permitir a visualização de informações não estruturadas no detalhamento de pessoas físicas e jurídicas, tais como fotos, mapas, dados de redes sociais, dentre outras.
+
+    [RAD08]: Nova pesquisa diretamente do detalhamento. 
+    Possibilitar nova pesquisa diretamente do detalhamento de pessoas físicas e jurídicas, através de links em campos chaves como nome da mãe, do pai, dentre outros.
+
+    [RAD09]: Disponibilizar o recurso de paginação dos resultados. 
+    No detalhamento de pessoas físicas e jurídicas, disponibilizar o recurso de paginação dos resultados presentes em tabelas que poderão conter dezenas de registros, como, por exemplo, a lista de filiais e funcionários de empresas.
+
+    [RAD10]: Permitir ao usuário escolher versão dos dados a ser apresentada. 
+    No detalhamento de pessoas físicas e jurídicas, permitir ao usuário escolher a versão dos dados a ser apresentada, sendo possível a escolha dos dados atuais ou de dados históricos.
+
+    [RAD11]: Salvar análise de vínculos. 
+    Na análise de vínculos, possibilitar ao usuário salvar o resultado do trabalho realizado para posterior continuidade.
+
+    [RAD16]: Organização automática análise de vínculos. 
+    Na análise de vínculos, implementar algoritmo(s) para permitir a organização automática das entidades apresentadas e permitir ao usuário executá-lo quando necessário.
+
+    [RAD12]: Menu de navegação. 
+    Implementar o menu de navegação para cada tópico disponível no detalhamento de pessoas físicas e jurídicas.
+
+    [RAD13]: Relatório de inteligência. 
+    Evolução, para os padrões determinados pelo MPMG, do relatório de inteligência apresentado no detalhamento de pessoas físicas e jurídicas.
+
+    [RAD14]: Visualização de vínculos de parentesco. 
+    Permitir a visualização de vínculos de parentesco na ferramenta tanto no detalhamento de dados de pessoas físicas e jurídicas quanto na análise de vínculos.
+
+    [RAD17]: Permitir aos usuários selecionar os tipos de entidades. 
+    Na análise de vínculos, permitir aos usuários selecionar os tipos de entidades a serem apresentados e a quantidade máxima de registros de cada uma delas, como, por exemplo, sócios, funcionários, endereços, e-mails, dentre outras.
+
+    [RAD18]: Destacar características das entidades. 
+    Na análise de vínculos, permitir destacar características das entidades (empresas que estão inativas, por exemplo) e também customizar os ícones a elas relacionados.
+
+    [RAD19]: Mostrar a direção das ligações entre as entidades. 
+    Deve ser demonstrada, na análise de vínculos, a direção da ligação entre as entidades, quando couber.
+
+    RAD21]: Pesquisa de Veículos. 
+    Disponibilização de módulo de pesquisa de veículos, permitindo, no mínimo, a consulta de dados por meio da placa, em sua totalidade ou parcialmente.
+
+    [RG07.2]: Automatização dos índices a serem considerados na análise de vínculos. 
+
+### Lins
+
+    [RAD05]: Visualização de credores. 
+    Implementar a visualização dos credores em mapa de forma georreferenciada.
+
+    [RAD10]: Informações referentes às despesas com servidores públicos. 
+    Disponibilizar informações referentes às despesas com servidores públicos, incluindo prefeitos, vereadores, funcionalismo público municipal e estadual.
+
+    [RAD11]: Trilhas referente a folha de pagamento. 
+    Implementar trilhas de auditoria referentes a análise da folha de pagamento do funcionalismo público, demonstrando a evolução histórica da folha, permitindo comparar os gastos de diferentes entes públicos e, quando disponível, apresentar o resultado da execução das trilhas que demonstrem a proporção entre os gastos com funcionalismo e as contratações externas efetuadas, o cálculo do limite prudencial de gastos com servidores públicos e a existência de servidores com múltiplos e incompatíveis vínculos.
+
+    [RAD12]: Indicador de atualização monetária. 
+    Disponibilizar a possibilidade de se utilizar indicador(es) para atualização monetária dos valores nominais no histórico da evolução das despesas públicas
+
+    [RAD15]: Resultados Georreferenciados. 
+    Implementar a visualização dos resultados da pesquisa de forma georreferenciada em mapa, permitindo a seleção prévia dos registros a serem encaminhados.[RAD22]: Módulo de textos não estruturados. Disponibilização de módulo de pesquisa em textos não estruturados, permitindo a consulta de texto livre e apresentando os resultados encontrados, inclusive com possibilidade de vinculação ao documento original.
+
+    [RAD32]: Implementar a consulta em tempo real de fontes de dados obtidos através de convênios MPMG.
+    Implementar a consulta em tempo real de fontes de dados obtidas através de convênios firmados pelo MPMG, disponibilizadas pelo MPMG e/ou na internet.
+
+    [RAR05]: Apresentar mais detalhes nos dados de receitas públicas. 
+    Evoluir a solução para apresentar mais detalhes sobre os dados das receitas públicas.
+
+    [RLI02.2]: Criação do módulo de contratos. 
+    A solução deve abranger a CRIAÇÃO DO MÓDULO DE CONTRATOS, incluindo, no caso dos municípios de Minas Gerais, a carga de dados dos contratos a partir do SICOM.
+
+    [RLI03]: Crição do módulo de notas fiscais (Interface). 
+    A solução deve abranger a CRIAÇÃO DO MÓDULO DE NOTAS FISCAIS,
+
+    [RTA01]: Evolução do módulo trilhas. 
+    Evolução do módulo de trilhas para permitir automação na criação e/ou execução das trilhas de auditoria, sendo facultada a integração com outras soluções/tecnologias adotadas pelo MPMG.
+
+    [RTA02]: Implementação de trilha. 
+    Implementar trilha de auditoria que estabeleça relações entre despesas, licitações e contratos públicos e as respectivas notas fiscais emitidas em favor de entes públicos com o objetivo de identificar fraudes.
+
+    [RTA03]: Trilha de relação entre doadores. 
+    Implementar trilha de auditoria que estabeleça eventuais relações entre doadores de campanhas eleitorais e posteriores contratações pelo poder público.
+
+    [RTA05]: Trilha de cruzamento de dados de notas fiscais. 
+    Implementar trilha de auditoria que estabeleça, no caso dos municípios de Minas Gerais, o cruzamento das notas fiscais presentes nas prestações de contas do SICOM com aquelas disponibilizadas pela Secretaria da Fazenda.
+
+
 ## Acesso
 
 Para acessar o Sistemas GSI, entre em um dos links informados em [Links de Acesso](#links-de-acesso).  
@@ -112,3 +222,49 @@ graph TD;
 ```
 
 As informações do LPAD estão descritas no arquivo .env do projeto.
+
+
+## Plano de Contingência
+
+As possíveis situações de emergência a serem prevenidas consistem em:
+
+**Falta de espaço em disco ou falta de memória no servidor:** Em caso de falta de espaço em disco ou falta de memória no servidor é necessário entrar em contato com responsável pela infraestrutura dos servidores para que seja liberado mais espaço em disco ou mais memória.
+
+**Erros ou interrupções que possam finalizar de maneira inesperada o processo do sistema:** O servidor de produção que hospeda os sistemas Áduna e Lins contém um serviço que é inicializado de maneira automática. O serviço sistemasgsi.service , que se localiza na pasta /etc/systemd/system/ , possui configurações de reinicialização em caso de falhas do servidor ou sistema operacional, como por exemplo:
+
+- Interrupção inesperada do sistema devido a processos de terceiros (Unclean exit code);
+- Sinal de interrupção recebido inesperadamente pelo sistema operacional ou processos de terceiros (Unclean signal);**
+- Tempo limite do processo esgotado (Timeout);
+
+**Reinicialização de maneira inesperada do servidor ou queda de energia:** Na reinicialização ou queda de energia do servidor, o serviço sistemasgsi.service é inicializado de maneira automática pelo sistema operacional.
+
+**Intervenções humanas que possam provocar falhas no servidor ou nos sistemas:** Em caso de intervenções que causam reinicialização do servidor, o serviço sistemasgsi.service é inicializado de maneira automática pelo sistema operacional. Em caso de intervenções que impossibilitam a continuidade ou inicialização do serviço sistemasgsi.service é necessário entrar em contato com a área técnica.
+
+Em caso de intervenções que finalizam o serviço sistemasgsi.service é necessário realizar os seguintes comandos dentro do servidor de produção (nodejs-prod1.mpmg.mp.br):
+
+    $ service sistemasgsi restart
+
+E para conferir se o serviço está ativo:
+
+    $ service sistemasgsi status
+
+
+### BACKUP
+
+A produção dos Sistemas GSI é feita utilizando a plataforma Git, que possui soluções intuitivas e assertivas para salvar todo o progresso dos códigos e repositórios desenvolvidos. O backup do restante dos dados e informações necessárias para as análises dos sistemas é de responsabilidade da contratante.
+
+### COMUNICAÇÃO
+
+QUEM DEVE COMUNICAR
+Qualquer servidor que detecte qualquer tipo de problema ou anomalia referente aos sistemas GSI.
+
+A QUEM COMUNICAR
+Em caso de falha, é necessário comunicar a equipe de helpdesk do Gabinete de Segurança e Inteligência (GSI), presente no Ministério Público do Estado de Minas Gerais, através dos seguintes contatos:
+
+E-mail: sistemasgsi@mpmg.mp.br 
+
+Em caso de falhas irrecuperáveis, a responsabilidade de garantir a manutenção dos sistemas é da empresa 4MTI Soluções LTDA.
+
+E-mail: 4mti@4mti.com.br
+Telefone: (31) 2526-4684
+
