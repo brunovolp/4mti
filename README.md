@@ -158,7 +158,7 @@ Navegador Web
     [RLI02.2]: Criação do módulo de contratos. 
     A solução deve abranger a CRIAÇÃO DO MÓDULO DE CONTRATOS, incluindo, no caso dos municípios de Minas Gerais, a carga de dados dos contratos a partir do SICOM.
 
-    [RLI03]: Crição do módulo de notas fiscais (Interface). 
+    [RLI03]: Criação do módulo de notas fiscais (Interface). 
     A solução deve abranger a CRIAÇÃO DO MÓDULO DE NOTAS FISCAIS,
 
     [RTA01]: Evolução do módulo trilhas. 
@@ -267,4 +267,200 @@ Em caso de falhas irrecuperáveis, a responsabilidade de garantir a manutenção
 
 E-mail: 4mti@4mti.com.br
 Telefone: (31) 2526-4684
+
+## POLÍTICA DE CRIAÇÃO DE USUÁRIOS
+
+### PERFIS DE USUÁRIOS
+
+Para utilização dos Sistemas GSI, foram criados 9 perfis, com diferentes níveis de acesso. São eles:
+
+    Full Administrador
+    Desenvolvimento 
+    Helpdesk
+    Padrão Aduna	
+    Full Aduna
+    Aduna Light	
+    Padrão Lins	
+    Full Lins		
+    Padrão Aduna e Lins			
+    Padrão Aduna e Lins +
+
+Nos tópicos seguintes, serão discorridos, para cada tipo de perfil, os recursos disponibilizados na plataforma.
+
+Full Administrador
+
+    Estatísticas De Consulta - Administrativo
+    Gestão De Índices - Administrativo
+    Gestão De Usuários - Administrativo
+    Logs De Carga - Administrativo
+    Logs Do Sistema - Administrativo
+    Origens Dos Dados - Administrativo
+    Pacotes De Origens De Dados - Administrativo
+    Recursos - Administrativo
+    Recursos E Perfis De Acesso - Administrativo
+    Sessões Ativas - Administrativo
+    Análises De Vínculos - Áduna
+    Busca Pessoa - Áduna
+    Grafo - Áduna
+    Histórico - Áduna
+    Imprimir - Áduna
+    Contratos - Lins
+    Análise de Contratos - Lins
+    Classificação de Contratos - Lins
+    Despesa - Lins
+    Análise de Despesa - Lins
+    Classificação de Despesa - Lins
+    Comparação de Despesa - Lins
+    Credores de Despesa - Lins
+    Histórico de Despesa - Lins
+    Grafo Lins - Lins
+    Licitação - Lins
+    Análise de Licitação - Lins
+    Sucesso de Licitação - Lins
+    Notas Fiscais - Lins
+    Análise de Notas Fiscais - Lins
+    Classificação de Notas Fiscais - Lins
+    Perfil - Lins
+    Receita - Lins
+    Análise de Receita - Lins
+    Classificação de Receita - Lins
+    Comparação de Receita - Lins
+
+Desenvolvimento
+
+    Estatísticas De Consulta - Administrativo
+    Gestão De Índices - Administrativo
+    Gestão De Usuários - Administrativo
+    Logs De Carga - Administrativo
+    Logs Do Sistema - Administrativo
+    Origens Dos Dados - Administrativo
+    Pacotes De Origens De Dados - Administrativo
+    Recursos E Perfis De Acesso - Administrativo
+    Busca Pessoa - Áduna
+    Grafo - Áduna
+    Histórico - Áduna
+    Imprimir - Áduna
+    Contratos - Lins
+    Análise de Contratos - Lins
+    Classificação de Contratos - Lins
+    Despesa - Lins
+    Análise de Despesa - Lins
+    Classificação de Despesa - Lins
+    Comparação de Despesa - Lins
+    Credores de Despesa - Lins
+    Histórico de Despesa - Lins
+    Grafo Lins - Lins
+    Licitação - Lins
+    Análise de Licitação - Lins
+    Sucesso de Licitação - Lins
+    Perfil - Lins
+    Receita - Lins
+    Análise de Receita - Lins
+    Classificação de Receita - Lins
+    Receita Comparação - Lins
+
+Helpdesk
+
+    Gestão De Índices - Administrativo
+    Gestão De Usuários - Administrativo
+    Logs De Carga - Administrativo
+    Logs Do Sistema - Administrativo
+    Busca Pessoa - Áduna
+    Grafo - Áduna
+    Histórico - Áduna
+    Imprimir - Áduna
+    Despesa - Lins
+    Análise de Despesa - Lins
+    Classificação de Despesa - Lins
+    Comparação de Despesa - Lins
+    Credores de Despesa - Lins
+    Histórico de Despesa - Lins
+    Licitação - Lins
+    Análise de Licitação - Lins
+    Sucesso de Licitação - Lins
+    Receita - Lins
+    Análise de Receita - Lins
+    Classificação de Receita - Lins
+    Receita Comparação - Lins
+
+Padrão Áduna
+
+    Busca Pessoa - Áduna
+    Grafo - Áduna
+    Imprimir - Áduna
+
+Full Áduna
+
+    Análises De Vínculos - Áduna
+    Busca Pessoa - Áduna
+    Grafo - Áduna
+    Imprimir - Áduna
+
+Padrão Lins
+
+    Despesa - Lins
+    Análise de Despesa - Lins
+    Classificação de Despesa - Lins
+    Comparação de Despesa - Lins
+    Credores de Despesa - Lins
+    Histórico de Despesa - Lins
+    Licitação - Lins
+    Análise de Licitação - Lins
+    Sucesso de Licitação - Lins
+    Classificação de Notas Fiscais - Lins
+    Perfil - Lins
+    Receita Comparação - Lins
+
+Full Lins
+
+    Despesa - Lins
+    Análise de Despesa - Lins
+    Classificação de Despesa - Lins
+    Comparação de Despesa - Lins
+    Credores de Despesa - Lins
+    Histórico de Despesa - Lins
+    Licitação - Lins
+    Análise de Licitação - Lins
+    Sucesso de Licitação - Lins
+    Notas Fiscais - Lins
+    Análise de Notas Fiscais - Lins
+    Classificação de Notas Fiscais - Lins
+    Perfil - Lins
+    Receita - Lins
+    Análise de Receita - Lins
+    Classificação de Receita - Lins
+    Receita Comparação - Lins
+
+Padrão Áduna e Lins +
+
+    Análises De Vínculos - Áduna
+    Busca Pessoa - Áduna
+    Grafo - Áduna
+    Histórico - Áduna
+    Classificação de Contratos - Lins
+    Despesa - Lins
+    Análise de Despesa - Lins
+    Classificação de Despesa - Lins
+    Comparação de Despesa - Lins
+    Credores de Despesa - Lins
+    Grafo Lins - Lins
+    Licitação - Lins
+    Análise de Licitação - Lins
+    Sucesso de Licitação - Lins
+    Notas Fiscais - Lins
+    Análise de Notas Fiscais - Lins
+    Classificação de Notas Fiscais - Lins
+    Perfil - Lins
+    Receita - Lins
+    Análise de Receita - Lins
+    Classificação de Receita - Lins
+    Receita Comparação - Lins
+
+### CRIAÇÃO DE NOVOS USUÁRIOS
+
+A gestão e inserção de novos usuários é feita somente por colaboradores com acesso Full Administrador, Desenvolvimento ou Helpdesk. Um novo usuário receberá um e-mail da plataforma com link de acesso tal qual se segue:
+
+Quando o usuário é novo, ele será redirecionado para a tela de termo de responsabilidade para acesso a informações de propriedade ou sob custódia do MPMG. É necessário que este usuário aceite o termo, caso contrário, ele será redirecionado para a tela de login. Sempre que um termo é inserido no momento em que o sistema está no ar, todos os usuários serão redirecionados para a tela do novo termo e serão obrigados a aceitá-lo. 
+
+
 
