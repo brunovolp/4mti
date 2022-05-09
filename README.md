@@ -460,7 +460,9 @@ Padrão Áduna e Lins +
 
 A gestão e inserção de novos usuários é feita somente por colaboradores com acesso Full Administrador, Desenvolvimento ou Helpdesk. Um novo usuário receberá um e-mail da plataforma com link de acesso tal qual se segue:
 
+![screenshot](contingencia_usuarios1.png)
+
 Quando o usuário é novo, ele será redirecionado para a tela de termo de responsabilidade para acesso a informações de propriedade ou sob custódia do MPMG. É necessário que este usuário aceite o termo, caso contrário, ele será redirecionado para a tela de login. Sempre que um termo é inserido no momento em que o sistema está no ar, todos os usuários serão redirecionados para a tela do novo termo e serão obrigados a aceitá-lo. 
 
-
+![screenshot](contingencia_usuarios2.png)
 
