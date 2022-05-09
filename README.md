@@ -41,6 +41,10 @@ Em homologação no endereço:
 
 - <a target="_blank">http://sistemasgsi-des.mpmg.mp.br/</a>
 
+## Manual de operação
+
+Acesse o manual de operação neste [link](https://docs.google.com/document/d/1i1Q-bszGbPQqbncjBzShrW-aIB3h94JW1qpgqH8CtKA/edit?usp=sharing).
+
 ## Requisitos Mínimos
 
 Requisitos de Sistema operacional.
